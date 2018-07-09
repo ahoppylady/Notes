@@ -16,8 +16,6 @@ class ListNotesTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("this is a print")
-        
         notes = CoreDataHelper.retrieveNotes()
         //we want to retrieve and display all of the user's existing notes. We can do this by retrieve our existing notes and updating our notes array in ListNotesTableViewController at app launch.
     }
